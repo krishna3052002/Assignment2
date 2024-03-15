@@ -21,11 +21,11 @@ public class Rectangle {
        Rectangle rectangle1= new Rectangle();
        System.out.printf("Enter Length:");
        double l=sc.nextDouble();
-        System.out.printf("Enter Width:");
-        double w=sc.nextDouble();
-      System.out.printf("Area:                          %.2f\n",rectangle1.Area(l,w));
-      System.out.printf("Perimeter:                     %.2f\n",rectangle1.Perimeter(l,w));
-      System.out.printf("Length Of Diagonal:            %.2f\n",rectangle1.LengthOfDiagonal(l,w));
+       System.out.printf("Enter Width:");
+       double w=sc.nextDouble();
+       System.out.printf("Area:                          %.2f\n",rectangle1.Area(l,w));
+       System.out.printf("Perimeter:                     %.2f\n",rectangle1.Perimeter(l,w));
+       System.out.printf("Length Of Diagonal:            %.2f\n",rectangle1.LengthOfDiagonal(l,w));
 
 
     }
